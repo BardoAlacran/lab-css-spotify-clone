@@ -7,8 +7,105 @@ White: #FFF
 
 */
 html, body {
-    font-size: 16px;
+    font-size: 20px;
 }
 * {
     border: 1px solid red;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 3.5rem;
+}
+h2 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.head-logo {
+    width: 300px;
+    margin-left: 5%;
+}
+nav {
+    position: fixed;
+    left: 70%;
+    top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 500px;
+    margin-right: 5%;
+}
+ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+.nav-bar-item {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 5px;
+}
+.container {
+    text-align: center;
+}
+.section1 {
+    background-image: url(/home/pc/Escritorio/Ironhack/lab-css-spotify-clone/images/landing.jpg);
+    background-repeat: no-repeat; width: auto;
+    background-size:cover;
+    color: white;
+    padding: 20%;
+}
+.section2 {
+    height: 500px;
+}
+.article-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    margin: 0 20px
+}
+.icon {
+    width: 100px;
+}
+.section2 article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+.article-sound {
+    padding-top: 12px;
+}
+
+.section3 {
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 5% 3%;
+    margin: 0px 35px;
+}
+.section3 article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+    text-align: start;
+}
+.spotify {
+    width: 200px;
+    margin-left: -20%;
+}
+.keyne {
+    width: 400px;
+    padding-right: 15px;
 }
